@@ -1,4 +1,4 @@
-## Todo-Summary
+# Todo-Summary
 
 완료되지 않은 할 일들을 모아 정리해서 디스코드로 보내줍니다.
 
