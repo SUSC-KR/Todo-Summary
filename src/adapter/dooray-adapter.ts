@@ -1,8 +1,9 @@
 import * as axios from 'axios';
 import { Configuration } from '../config';
 import { DoorayPaginatedResponse, DoorayResponse } from './dto/common.dto';
-import { ListMemberGroupResponseDto } from './dto/list-member-group.dto';
 import { ListTaskResponseDto } from './dto/list-task.dto';
+import { GetProjectResponseDto } from './dto/get-project.dto';
+import { ListMemberGroupResponseDto } from './dto/list-member-group.dto';
 
 export class DoorayAdapter {
   private client: axios.AxiosInstance;
@@ -17,18 +18,25 @@ export class DoorayAdapter {
     });
   }
 
+  async getProject(
+    projectId: string,
+  ): Promise<DoorayResponse<GetProjectResponseDto>> {
+    const response = await this.client.get(`/project/v1/projects/${projectId}`);
+    return response.data;
+  }
+
   async listMemberGroup(
-    projectId: string
+    projectId: string,
   ): Promise<DoorayResponse<ListMemberGroupResponseDto>> {
     const response = await this.client.get(
-      `/project/v1/projects/${projectId}/member-groups`
+      `/project/v1/projects/${projectId}/member-groups`,
     );
     return response.data;
   }
 
   async listOpenedTask(
     projectId: string,
-    page: number
+    page: number,
   ): Promise<DoorayPaginatedResponse<ListTaskResponseDto>> {
     const response = await this.client.get(
       `/project/v1/projects/${projectId}/posts`,
@@ -38,7 +46,7 @@ export class DoorayAdapter {
           page,
           postWorkflowClasses: 'backlog,registered,working',
         },
-      }
+      },
     );
     return response.data;
   }

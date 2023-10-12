@@ -1,0 +1,1964 @@
+[
+  {
+    "teamId": "pm",
+    "summary": []
+  },
+  {
+    "teamId": "plan",
+    "summary": [
+      {
+        "project": {
+          "id": "3626287858542903466",
+          "name": "SUSC-Branding"
+        },
+        "members": [],
+        "group": [
+          {
+            "id": "3641359087543856047",
+            "project": {
+              "id": "3626287858542903466",
+              "code": "SUSC-Branding"
+            },
+            "priority": "highest",
+            "subject": "학교 대표 OT 자료 작성",
+            "taskNumber": "SUSC-Branding/7",
+            "dueDate": null,
+            "users": {
+              "from": {
+                "type": "member",
+                "member": {
+                  "organizationMemberId": "3626282873298798192",
+                  "name": "송보경"
+                }
+              },
+              "to": [
+                {
+                  "type": "group",
+                  "group": {
+                    "projectMemberGroupId": "3641009946534663427",
+                    "code": "SUSC-Branding/기획팀",
+                    "members": [
+                      {
+                        "organizationMemberId": "3626352306351140608",
+                        "name": "남의서",
+                        "workflowId": "3626287858798570467"
+                      },
+                      {
+                        "organizationMemberId": "3626351758141558947",
+                        "name": "문준상",
+                        "workflowId": "3626287858798570467"
+                      },
+                      {
+                        "organizationMemberId": "3627682660080378247",
+                        "name": "박정식",
+                        "workflowId": "3626287858798570467"
+                      },
+                      {
+                        "organizationMemberId": "3626282873298798192",
+                        "name": "송보경",
+                        "workflowId": "3626287858798570467"
+                      },
+                      {
+                        "organizationMemberId": "3627675891554539273",
+                        "name": "이지성",
+                        "workflowId": "3626287858798570467"
+                      }
+                    ]
+                  },
+                  "workflow": {
+                    "id": "3626287858798570467",
+                    "name": "할 일"
+                  }
+                },
+                {
+                  "type": "group",
+                  "group": {
+                    "projectMemberGroupId": "3641009474062780801",
+                    "code": "SUSC-Branding/학교운영팀",
+                    "members": [
+                      {
+                        "organizationMemberId": "3626828199968726520",
+                        "name": "김민상",
+                        "workflowId": "3626287858798570467"
+                      },
+                      {
+                        "organizationMemberId": "3626807577255448605",
+                        "name": "김현우",
+                        "workflowId": "3626287858798570467"
+                      },
+                      {
+                        "organizationMemberId": "3626282873298798192",
+                        "name": "송보경",
+                        "workflowId": "3626287858798570467"
+                      },
+                      {
+                        "organizationMemberId": "3627675891554539273",
+                        "name": "이지성",
+                        "workflowId": "3626287858798570467"
+                      }
+                    ]
+                  },
+                  "workflow": {
+                    "id": "3626287858798570467",
+                    "name": "할 일"
+                  }
+                }
+              ],
+              "cc": [
+                {
+                  "type": "group",
+                  "group": {
+                    "projectMemberGroupId": "3641009050036977933",
+                    "code": "SUSC-Branding/대외협력팀",
+                    "members": [
+                      {
+                        "organizationMemberId": "3630486433216795822",
+                        "name": "송현민"
+                      },
+                      {
+                        "organizationMemberId": "3626391790979469300",
+                        "name": "이준원"
+                      },
+                      {
+                        "organizationMemberId": "3626349875561291430",
+                        "name": "추영욱"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "createdAt": "2023-10-04T02:50:30.000Z"
+          },
+          {
+            "id": "3641430956400890607",
+            "project": {
+              "id": "3626287858542903466",
+              "code": "SUSC-Branding"
+            },
+            "priority": "highest",
+            "subject": "[Swift Coding Club] 협업 제안건",
+            "taskNumber": "SUSC-Branding/11",
+            "dueDate": "2023-10-17T13:00:00.000Z",
+            "users": {
+              "from": {
+                "type": "member",
+                "member": {
+                  "organizationMemberId": "3626282873298798192",
+                  "name": "송보경"
+                }
+              },
+              "to": [
+                {
+                  "type": "group",
+                  "group": {
+                    "projectMemberGroupId": "3641009946534663427",
+                    "code": "SUSC-Branding/기획팀",
+                    "members": [
+                      {
+                        "organizationMemberId": "3626352306351140608",
+                        "name": "남의서",
+                        "workflowId": "3626287858849504348"
+                      },
+                      {
+                        "organizationMemberId": "3626351758141558947",
+                        "name": "문준상",
+                        "workflowId": "3626287858849504348"
+                      },
+                      {
+                        "organizationMemberId": "3627682660080378247",
+                        "name": "박정식",
+                        "workflowId": "3626287858849504348"
+                      },
+                      {
+                        "organizationMemberId": "3626282873298798192",
+                        "name": "송보경",
+                        "workflowId": "3626287858849504348"
+                      },
+                      {
+                        "organizationMemberId": "3627675891554539273",
+                        "name": "이지성",
+                        "workflowId": "3626287858849504348"
+                      }
+                    ]
+                  },
+                  "workflow": {
+                    "id": "3626287858849504348",
+                    "name": "진행 중"
+                  }
+                },
+                {
+                  "type": "group",
+                  "group": {
+                    "projectMemberGroupId": "3641009050036977933",
+                    "code": "SUSC-Branding/대외협력팀",
+                    "members": [
+                      {
+                        "organizationMemberId": "3626352306351140608",
+                        "name": "남의서",
+                        "workflowId": "3626287858849504348"
+                      },
+                      {
+                        "organizationMemberId": "3627682660080378247",
+                        "name": "박정식",
+                        "workflowId": "3626287858849504348"
+                      },
+                      {
+                        "organizationMemberId": "3626282873298798192",
+                        "name": "송보경",
+                        "workflowId": "3626287858849504348"
+                      },
+                      {
+                        "organizationMemberId": "3630486433216795822",
+                        "name": "송현민",
+                        "workflowId": "3626287858849504348"
+                      },
+                      {
+                        "organizationMemberId": "3626391790979469300",
+                        "name": "이준원",
+                        "workflowId": "3626287858849504348"
+                      },
+                      {
+                        "organizationMemberId": "3626349875561291430",
+                        "name": "추영욱",
+                        "workflowId": "3626287858849504348"
+                      }
+                    ]
+                  },
+                  "workflow": {
+                    "id": "3626287858849504348",
+                    "name": "진행 중"
+                  }
+                }
+              ],
+              "cc": []
+            },
+            "createdAt": "2023-10-04T05:13:17.000Z"
+          },
+          {
+            "id": "3641433268004033892",
+            "project": {
+              "id": "3626287858542903466",
+              "code": "SUSC-Branding"
+            },
+            "priority": "normal",
+            "subject": "[Cloud Club] 협업 제안건",
+            "taskNumber": "SUSC-Branding/12",
+            "dueDate": "2023-10-17T13:00:00.000Z",
+            "users": {
+              "from": {
+                "type": "member",
+                "member": {
+                  "organizationMemberId": "3626282873298798192",
+                  "name": "송보경"
+                }
+              },
+              "to": [
+                {
+                  "type": "group",
+                  "group": {
+                    "projectMemberGroupId": "3641009946534663427",
+                    "code": "SUSC-Branding/기획팀",
+                    "members": [
+                      {
+                        "organizationMemberId": "3626351758141558947",
+                        "name": "문준상",
+                        "workflowId": "3626287858849504348"
+                      },
+                      {
+                        "organizationMemberId": "3627682660080378247",
+                        "name": "박정식",
+                        "workflowId": "3626287858849504348"
+                      },
+                      {
+                        "organizationMemberId": "3626282873298798192",
+                        "name": "송보경",
+                        "workflowId": "3626287858849504348"
+                      },
+                      {
+                        "organizationMemberId": "3627675891554539273",
+                        "name": "이지성",
+                        "workflowId": "3626287858849504348"
+                      },
+                      {
+                        "organizationMemberId": "3626352306351140608",
+                        "name": "남의서",
+                        "workflowId": "3626287858727642034"
+                      }
+                    ]
+                  },
+                  "workflow": {
+                    "id": "3626287858849504348",
+                    "name": "진행 중"
+                  }
+                },
+                {
+                  "type": "group",
+                  "group": {
+                    "projectMemberGroupId": "3641009050036977933",
+                    "code": "SUSC-Branding/대외협력팀",
+                    "members": [
+                      {
+                        "organizationMemberId": "3627682660080378247",
+                        "name": "박정식",
+                        "workflowId": "3626287858849504348"
+                      },
+                      {
+                        "organizationMemberId": "3626282873298798192",
+                        "name": "송보경",
+                        "workflowId": "3626287858849504348"
+                      },
+                      {
+                        "organizationMemberId": "3630486433216795822",
+                        "name": "송현민",
+                        "workflowId": "3626287858849504348"
+                      },
+                      {
+                        "organizationMemberId": "3626391790979469300",
+                        "name": "이준원",
+                        "workflowId": "3626287858849504348"
+                      },
+                      {
+                        "organizationMemberId": "3626349875561291430",
+                        "name": "추영욱",
+                        "workflowId": "3626287858849504348"
+                      },
+                      {
+                        "organizationMemberId": "3626352306351140608",
+                        "name": "남의서",
+                        "workflowId": "3626287858727642034"
+                      }
+                    ]
+                  },
+                  "workflow": {
+                    "id": "3626287858849504348",
+                    "name": "진행 중"
+                  }
+                }
+              ],
+              "cc": []
+            },
+            "createdAt": "2023-10-04T05:17:53.000Z"
+          },
+          {
+            "id": "3641442418857129101",
+            "project": {
+              "id": "3626287858542903466",
+              "code": "SUSC-Branding"
+            },
+            "priority": "normal",
+            "subject": "SUSC 알고리즘 대회 Ideation",
+            "taskNumber": "SUSC-Branding/13",
+            "dueDate": "2023-10-17T13:00:00.000Z",
+            "users": {
+              "from": {
+                "type": "member",
+                "member": {
+                  "organizationMemberId": "3626282873298798192",
+                  "name": "송보경"
+                }
+              },
+              "to": [
+                {
+                  "type": "member",
+                  "member": {
+                    "organizationMemberId": "3626828199968726520",
+                    "name": "김민상"
+                  },
+                  "workflow": {
+                    "id": "3626287858798570467",
+                    "name": "할 일"
+                  }
+                },
+                {
+                  "type": "group",
+                  "group": {
+                    "projectMemberGroupId": "3641009946534663427",
+                    "code": "SUSC-Branding/기획팀",
+                    "members": [
+                      {
+                        "organizationMemberId": "3626352306351140608",
+                        "name": "남의서",
+                        "workflowId": "3626287858798570467"
+                      },
+                      {
+                        "organizationMemberId": "3626351758141558947",
+                        "name": "문준상",
+                        "workflowId": "3626287858798570467"
+                      },
+                      {
+                        "organizationMemberId": "3627682660080378247",
+                        "name": "박정식",
+                        "workflowId": "3626287858798570467"
+                      },
+                      {
+                        "organizationMemberId": "3626282873298798192",
+                        "name": "송보경",
+                        "workflowId": "3626287858798570467"
+                      },
+                      {
+                        "organizationMemberId": "3627675891554539273",
+                        "name": "이지성",
+                        "workflowId": "3626287858798570467"
+                      }
+                    ]
+                  },
+                  "workflow": {
+                    "id": "3626287858798570467",
+                    "name": "할 일"
+                  }
+                }
+              ],
+              "cc": []
+            },
+            "createdAt": "2023-10-04T05:36:04.000Z"
+          },
+          {
+            "id": "3641468419265717712",
+            "project": {
+              "id": "3626287858542903466",
+              "code": "SUSC-Branding"
+            },
+            "priority": "normal",
+            "subject": "[과 학생회] 과 학생회와의 교류건 Ideation",
+            "taskNumber": "SUSC-Branding/15",
+            "dueDate": "2023-10-17T13:00:00.000Z",
+            "users": {
+              "from": {
+                "type": "member",
+                "member": {
+                  "organizationMemberId": "3626282873298798192",
+                  "name": "송보경"
+                }
+              },
+              "to": [
+                {
+                  "type": "group",
+                  "group": {
+                    "projectMemberGroupId": "3641009946534663427",
+                    "code": "SUSC-Branding/기획팀",
+                    "members": [
+                      {
+                        "organizationMemberId": "3626351758141558947",
+                        "name": "문준상",
+                        "workflowId": "3626287858798570467"
+                      },
+                      {
+                        "organizationMemberId": "3627682660080378247",
+                        "name": "박정식",
+                        "workflowId": "3626287858798570467"
+                      },
+                      {
+                        "organizationMemberId": "3626282873298798192",
+                        "name": "송보경",
+                        "workflowId": "3626287858798570467"
+                      },
+                      {
+                        "organizationMemberId": "3627675891554539273",
+                        "name": "이지성",
+                        "workflowId": "3626287858798570467"
+                      },
+                      {
+                        "organizationMemberId": "3626352306351140608",
+                        "name": "남의서",
+                        "workflowId": "3626287858849504348"
+                      }
+                    ]
+                  },
+                  "workflow": {
+                    "id": "3626287858798570467",
+                    "name": "할 일"
+                  }
+                },
+                {
+                  "type": "group",
+                  "group": {
+                    "projectMemberGroupId": "3641009050036977933",
+                    "code": "SUSC-Branding/대외협력팀",
+                    "members": [
+                      {
+                        "organizationMemberId": "3627682660080378247",
+                        "name": "박정식",
+                        "workflowId": "3626287858798570467"
+                      },
+                      {
+                        "organizationMemberId": "3626282873298798192",
+                        "name": "송보경",
+                        "workflowId": "3626287858798570467"
+                      },
+                      {
+                        "organizationMemberId": "3630486433216795822",
+                        "name": "송현민",
+                        "workflowId": "3626287858798570467"
+                      },
+                      {
+                        "organizationMemberId": "3626391790979469300",
+                        "name": "이준원",
+                        "workflowId": "3626287858798570467"
+                      },
+                      {
+                        "organizationMemberId": "3626349875561291430",
+                        "name": "추영욱",
+                        "workflowId": "3626287858798570467"
+                      },
+                      {
+                        "organizationMemberId": "3626352306351140608",
+                        "name": "남의서",
+                        "workflowId": "3626287858849504348"
+                      }
+                    ]
+                  },
+                  "workflow": {
+                    "id": "3626287858798570467",
+                    "name": "할 일"
+                  }
+                }
+              ],
+              "cc": [
+                {
+                  "type": "group",
+                  "group": {
+                    "projectMemberGroupId": "3641009474062780801",
+                    "code": "SUSC-Branding/학교운영팀",
+                    "members": [
+                      {
+                        "organizationMemberId": "3626828199968726520",
+                        "name": "김민상"
+                      },
+                      {
+                        "organizationMemberId": "3626807577255448605",
+                        "name": "김현우"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "createdAt": "2023-10-04T06:27:43.000Z"
+          }
+        ]
+      },
+      {
+        "project": {
+          "id": "3626296728527551677",
+          "name": "방학-중-컨텐츠-기획"
+        },
+        "members": [],
+        "group": [
+          {
+            "id": "3641439972529681155",
+            "project": {
+              "id": "3626296728527551677",
+              "code": "방학-중-컨텐츠-기획"
+            },
+            "priority": "high",
+            "subject": "방학 중 컨텐츠 Ideation",
+            "taskNumber": "방학-중-컨텐츠-기획/4",
+            "dueDate": "2023-10-17T13:00:00.000Z",
+            "users": {
+              "from": {
+                "type": "member",
+                "member": {
+                  "organizationMemberId": "3626282873298798192",
+                  "name": "송보경"
+                }
+              },
+              "to": [
+                {
+                  "type": "group",
+                  "group": {
+                    "projectMemberGroupId": "3641336065151535734",
+                    "code": "방학-중-컨텐츠-기획/기획팀",
+                    "members": [
+                      {
+                        "organizationMemberId": "3626352306351140608",
+                        "name": "남의서",
+                        "workflowId": "3626296728838986254"
+                      },
+                      {
+                        "organizationMemberId": "3626351758141558947",
+                        "name": "문준상",
+                        "workflowId": "3626296728838986254"
+                      },
+                      {
+                        "organizationMemberId": "3627682660080378247",
+                        "name": "박정식",
+                        "workflowId": "3626296728838986254"
+                      },
+                      {
+                        "organizationMemberId": "3626282873298798192",
+                        "name": "송보경",
+                        "workflowId": "3626296728838986254"
+                      },
+                      {
+                        "organizationMemberId": "3627675891554539273",
+                        "name": "이지성",
+                        "workflowId": "3626296728838986254"
+                      }
+                    ]
+                  },
+                  "workflow": {
+                    "id": "3626296728838986254",
+                    "name": "할 일"
+                  }
+                }
+              ],
+              "cc": []
+            },
+            "createdAt": "2023-10-04T05:31:12.000Z"
+          }
+        ]
+      },
+      {
+        "project": {
+          "id": "3626294191992036461",
+          "name": "학기-중-컨텐츠-기획"
+        },
+        "members": [],
+        "group": [
+          {
+            "id": "3641437512280279983",
+            "project": {
+              "id": "3626294191992036461",
+              "code": "학기-중-컨텐츠-기획"
+            },
+            "priority": "high",
+            "subject": "학기 중 컨텐츠 Ideation",
+            "taskNumber": "학기-중-컨텐츠-기획/1",
+            "dueDate": "2023-10-17T13:00:00.000Z",
+            "users": {
+              "from": {
+                "type": "member",
+                "member": {
+                  "organizationMemberId": "3626282873298798192",
+                  "name": "송보경"
+                }
+              },
+              "to": [
+                {
+                  "type": "group",
+                  "group": {
+                    "projectMemberGroupId": "3641334497638817926",
+                    "code": "학기-중-컨텐츠-기획/기획팀",
+                    "members": [
+                      {
+                        "organizationMemberId": "3626352306351140608",
+                        "name": "남의서",
+                        "workflowId": "3626294192166508813"
+                      },
+                      {
+                        "organizationMemberId": "3626351758141558947",
+                        "name": "문준상",
+                        "workflowId": "3626294192166508813"
+                      },
+                      {
+                        "organizationMemberId": "3627682660080378247",
+                        "name": "박정식",
+                        "workflowId": "3626294192166508813"
+                      },
+                      {
+                        "organizationMemberId": "3626282873298798192",
+                        "name": "송보경",
+                        "workflowId": "3626294192166508813"
+                      },
+                      {
+                        "organizationMemberId": "3627675891554539273",
+                        "name": "이지성",
+                        "workflowId": "3626294192166508813"
+                      }
+                    ]
+                  },
+                  "workflow": {
+                    "id": "3626294192166508813",
+                    "name": "할 일"
+                  }
+                }
+              ],
+              "cc": []
+            },
+            "createdAt": "2023-10-04T05:26:19.000Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "teamId": "foreign-cooperate",
+    "summary": [
+      {
+        "project": {
+          "id": "3626287858542903466",
+          "name": "SUSC-Branding"
+        },
+        "members": [],
+        "group": [
+          {
+            "id": "3641462348058691607",
+            "project": {
+              "id": "3626287858542903466",
+              "code": "SUSC-Branding"
+            },
+            "priority": "high",
+            "subject": "[불특정 교내 동아리] 대표만 존재하는 학교 교내 동아리 모집",
+            "taskNumber": "SUSC-Branding/14",
+            "dueDate": null,
+            "users": {
+              "from": {
+                "type": "member",
+                "member": {
+                  "organizationMemberId": "3626282873298798192",
+                  "name": "송보경"
+                }
+              },
+              "to": [
+                {
+                  "type": "group",
+                  "group": {
+                    "projectMemberGroupId": "3641009050036977933",
+                    "code": "SUSC-Branding/대외협력팀",
+                    "members": [
+                      {
+                        "organizationMemberId": "3626352306351140608",
+                        "name": "남의서",
+                        "workflowId": "3626287858798570467"
+                      },
+                      {
+                        "organizationMemberId": "3627682660080378247",
+                        "name": "박정식",
+                        "workflowId": "3626287858798570467"
+                      },
+                      {
+                        "organizationMemberId": "3626282873298798192",
+                        "name": "송보경",
+                        "workflowId": "3626287858798570467"
+                      },
+                      {
+                        "organizationMemberId": "3630486433216795822",
+                        "name": "송현민",
+                        "workflowId": "3626287858798570467"
+                      },
+                      {
+                        "organizationMemberId": "3626391790979469300",
+                        "name": "이준원",
+                        "workflowId": "3626287858798570467"
+                      },
+                      {
+                        "organizationMemberId": "3626349875561291430",
+                        "name": "추영욱",
+                        "workflowId": "3626287858798570467"
+                      }
+                    ]
+                  },
+                  "workflow": {
+                    "id": "3626287858798570467",
+                    "name": "할 일"
+                  }
+                }
+              ],
+              "cc": [
+                {
+                  "type": "group",
+                  "group": {
+                    "projectMemberGroupId": "3641009474062780801",
+                    "code": "SUSC-Branding/학교운영팀",
+                    "members": [
+                      {
+                        "organizationMemberId": "3626828199968726520",
+                        "name": "김민상"
+                      },
+                      {
+                        "organizationMemberId": "3626807577255448605",
+                        "name": "김현우"
+                      },
+                      {
+                        "organizationMemberId": "3627675891554539273",
+                        "name": "이지성"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "createdAt": "2023-10-04T06:15:39.000Z"
+          },
+          {
+            "id": "3641430956400890607",
+            "project": {
+              "id": "3626287858542903466",
+              "code": "SUSC-Branding"
+            },
+            "priority": "highest",
+            "subject": "[Swift Coding Club] 협업 제안건",
+            "taskNumber": "SUSC-Branding/11",
+            "dueDate": "2023-10-17T13:00:00.000Z",
+            "users": {
+              "from": {
+                "type": "member",
+                "member": {
+                  "organizationMemberId": "3626282873298798192",
+                  "name": "송보경"
+                }
+              },
+              "to": [
+                {
+                  "type": "group",
+                  "group": {
+                    "projectMemberGroupId": "3641009946534663427",
+                    "code": "SUSC-Branding/기획팀",
+                    "members": [
+                      {
+                        "organizationMemberId": "3626352306351140608",
+                        "name": "남의서",
+                        "workflowId": "3626287858849504348"
+                      },
+                      {
+                        "organizationMemberId": "3626351758141558947",
+                        "name": "문준상",
+                        "workflowId": "3626287858849504348"
+                      },
+                      {
+                        "organizationMemberId": "3627682660080378247",
+                        "name": "박정식",
+                        "workflowId": "3626287858849504348"
+                      },
+                      {
+                        "organizationMemberId": "3626282873298798192",
+                        "name": "송보경",
+                        "workflowId": "3626287858849504348"
+                      },
+                      {
+                        "organizationMemberId": "3627675891554539273",
+                        "name": "이지성",
+                        "workflowId": "3626287858849504348"
+                      }
+                    ]
+                  },
+                  "workflow": {
+                    "id": "3626287858849504348",
+                    "name": "진행 중"
+                  }
+                },
+                {
+                  "type": "group",
+                  "group": {
+                    "projectMemberGroupId": "3641009050036977933",
+                    "code": "SUSC-Branding/대외협력팀",
+                    "members": [
+                      {
+                        "organizationMemberId": "3626352306351140608",
+                        "name": "남의서",
+                        "workflowId": "3626287858849504348"
+                      },
+                      {
+                        "organizationMemberId": "3627682660080378247",
+                        "name": "박정식",
+                        "workflowId": "3626287858849504348"
+                      },
+                      {
+                        "organizationMemberId": "3626282873298798192",
+                        "name": "송보경",
+                        "workflowId": "3626287858849504348"
+                      },
+                      {
+                        "organizationMemberId": "3630486433216795822",
+                        "name": "송현민",
+                        "workflowId": "3626287858849504348"
+                      },
+                      {
+                        "organizationMemberId": "3626391790979469300",
+                        "name": "이준원",
+                        "workflowId": "3626287858849504348"
+                      },
+                      {
+                        "organizationMemberId": "3626349875561291430",
+                        "name": "추영욱",
+                        "workflowId": "3626287858849504348"
+                      }
+                    ]
+                  },
+                  "workflow": {
+                    "id": "3626287858849504348",
+                    "name": "진행 중"
+                  }
+                }
+              ],
+              "cc": []
+            },
+            "createdAt": "2023-10-04T05:13:17.000Z"
+          },
+          {
+            "id": "3641433268004033892",
+            "project": {
+              "id": "3626287858542903466",
+              "code": "SUSC-Branding"
+            },
+            "priority": "normal",
+            "subject": "[Cloud Club] 협업 제안건",
+            "taskNumber": "SUSC-Branding/12",
+            "dueDate": "2023-10-17T13:00:00.000Z",
+            "users": {
+              "from": {
+                "type": "member",
+                "member": {
+                  "organizationMemberId": "3626282873298798192",
+                  "name": "송보경"
+                }
+              },
+              "to": [
+                {
+                  "type": "group",
+                  "group": {
+                    "projectMemberGroupId": "3641009946534663427",
+                    "code": "SUSC-Branding/기획팀",
+                    "members": [
+                      {
+                        "organizationMemberId": "3626351758141558947",
+                        "name": "문준상",
+                        "workflowId": "3626287858849504348"
+                      },
+                      {
+                        "organizationMemberId": "3627682660080378247",
+                        "name": "박정식",
+                        "workflowId": "3626287858849504348"
+                      },
+                      {
+                        "organizationMemberId": "3626282873298798192",
+                        "name": "송보경",
+                        "workflowId": "3626287858849504348"
+                      },
+                      {
+                        "organizationMemberId": "3627675891554539273",
+                        "name": "이지성",
+                        "workflowId": "3626287858849504348"
+                      },
+                      {
+                        "organizationMemberId": "3626352306351140608",
+                        "name": "남의서",
+                        "workflowId": "3626287858727642034"
+                      }
+                    ]
+                  },
+                  "workflow": {
+                    "id": "3626287858849504348",
+                    "name": "진행 중"
+                  }
+                },
+                {
+                  "type": "group",
+                  "group": {
+                    "projectMemberGroupId": "3641009050036977933",
+                    "code": "SUSC-Branding/대외협력팀",
+                    "members": [
+                      {
+                        "organizationMemberId": "3627682660080378247",
+                        "name": "박정식",
+                        "workflowId": "3626287858849504348"
+                      },
+                      {
+                        "organizationMemberId": "3626282873298798192",
+                        "name": "송보경",
+                        "workflowId": "3626287858849504348"
+                      },
+                      {
+                        "organizationMemberId": "3630486433216795822",
+                        "name": "송현민",
+                        "workflowId": "3626287858849504348"
+                      },
+                      {
+                        "organizationMemberId": "3626391790979469300",
+                        "name": "이준원",
+                        "workflowId": "3626287858849504348"
+                      },
+                      {
+                        "organizationMemberId": "3626349875561291430",
+                        "name": "추영욱",
+                        "workflowId": "3626287858849504348"
+                      },
+                      {
+                        "organizationMemberId": "3626352306351140608",
+                        "name": "남의서",
+                        "workflowId": "3626287858727642034"
+                      }
+                    ]
+                  },
+                  "workflow": {
+                    "id": "3626287858849504348",
+                    "name": "진행 중"
+                  }
+                }
+              ],
+              "cc": []
+            },
+            "createdAt": "2023-10-04T05:17:53.000Z"
+          },
+          {
+            "id": "3641468419265717712",
+            "project": {
+              "id": "3626287858542903466",
+              "code": "SUSC-Branding"
+            },
+            "priority": "normal",
+            "subject": "[과 학생회] 과 학생회와의 교류건 Ideation",
+            "taskNumber": "SUSC-Branding/15",
+            "dueDate": "2023-10-17T13:00:00.000Z",
+            "users": {
+              "from": {
+                "type": "member",
+                "member": {
+                  "organizationMemberId": "3626282873298798192",
+                  "name": "송보경"
+                }
+              },
+              "to": [
+                {
+                  "type": "group",
+                  "group": {
+                    "projectMemberGroupId": "3641009946534663427",
+                    "code": "SUSC-Branding/기획팀",
+                    "members": [
+                      {
+                        "organizationMemberId": "3626351758141558947",
+                        "name": "문준상",
+                        "workflowId": "3626287858798570467"
+                      },
+                      {
+                        "organizationMemberId": "3627682660080378247",
+                        "name": "박정식",
+                        "workflowId": "3626287858798570467"
+                      },
+                      {
+                        "organizationMemberId": "3626282873298798192",
+                        "name": "송보경",
+                        "workflowId": "3626287858798570467"
+                      },
+                      {
+                        "organizationMemberId": "3627675891554539273",
+                        "name": "이지성",
+                        "workflowId": "3626287858798570467"
+                      },
+                      {
+                        "organizationMemberId": "3626352306351140608",
+                        "name": "남의서",
+                        "workflowId": "3626287858849504348"
+                      }
+                    ]
+                  },
+                  "workflow": {
+                    "id": "3626287858798570467",
+                    "name": "할 일"
+                  }
+                },
+                {
+                  "type": "group",
+                  "group": {
+                    "projectMemberGroupId": "3641009050036977933",
+                    "code": "SUSC-Branding/대외협력팀",
+                    "members": [
+                      {
+                        "organizationMemberId": "3627682660080378247",
+                        "name": "박정식",
+                        "workflowId": "3626287858798570467"
+                      },
+                      {
+                        "organizationMemberId": "3626282873298798192",
+                        "name": "송보경",
+                        "workflowId": "3626287858798570467"
+                      },
+                      {
+                        "organizationMemberId": "3630486433216795822",
+                        "name": "송현민",
+                        "workflowId": "3626287858798570467"
+                      },
+                      {
+                        "organizationMemberId": "3626391790979469300",
+                        "name": "이준원",
+                        "workflowId": "3626287858798570467"
+                      },
+                      {
+                        "organizationMemberId": "3626349875561291430",
+                        "name": "추영욱",
+                        "workflowId": "3626287858798570467"
+                      },
+                      {
+                        "organizationMemberId": "3626352306351140608",
+                        "name": "남의서",
+                        "workflowId": "3626287858849504348"
+                      }
+                    ]
+                  },
+                  "workflow": {
+                    "id": "3626287858798570467",
+                    "name": "할 일"
+                  }
+                }
+              ],
+              "cc": [
+                {
+                  "type": "group",
+                  "group": {
+                    "projectMemberGroupId": "3641009474062780801",
+                    "code": "SUSC-Branding/학교운영팀",
+                    "members": [
+                      {
+                        "organizationMemberId": "3626828199968726520",
+                        "name": "김민상"
+                      },
+                      {
+                        "organizationMemberId": "3626807577255448605",
+                        "name": "김현우"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "createdAt": "2023-10-04T06:27:43.000Z"
+          }
+        ]
+      },
+      {
+        "project": {
+          "id": "3626293483184947331",
+          "name": "SUSCon23-준비"
+        },
+        "members": [],
+        "group": [
+          {
+            "id": "3641426953579524494",
+            "project": {
+              "id": "3626293483184947331",
+              "code": "SUSCon23-준비"
+            },
+            "priority": "normal",
+            "subject": "[대학교] SUSCon 장소 대관",
+            "taskNumber": "SUSCon23-준비/12",
+            "dueDate": null,
+            "users": {
+              "from": {
+                "type": "member",
+                "member": {
+                  "organizationMemberId": "3626282873298798192",
+                  "name": "송보경"
+                }
+              },
+              "to": [
+                {
+                  "type": "group",
+                  "group": {
+                    "projectMemberGroupId": "3641333315644476493",
+                    "code": "23Winter-행사-준비/대외협력팀",
+                    "members": [
+                      {
+                        "organizationMemberId": "3626352306351140608",
+                        "name": "남의서",
+                        "workflowId": "3626293483330316871"
+                      },
+                      {
+                        "organizationMemberId": "3627682660080378247",
+                        "name": "박정식",
+                        "workflowId": "3626293483330316871"
+                      },
+                      {
+                        "organizationMemberId": "3626282873298798192",
+                        "name": "송보경",
+                        "workflowId": "3626293483330316871"
+                      },
+                      {
+                        "organizationMemberId": "3630486433216795822",
+                        "name": "송현민",
+                        "workflowId": "3626293483330316871"
+                      },
+                      {
+                        "organizationMemberId": "3626391790979469300",
+                        "name": "이준원",
+                        "workflowId": "3626293483330316871"
+                      },
+                      {
+                        "organizationMemberId": "3626349875561291430",
+                        "name": "추영욱",
+                        "workflowId": "3626293483330316871"
+                      }
+                    ]
+                  },
+                  "workflow": {
+                    "id": "3626293483330316871",
+                    "name": "진행 중"
+                  }
+                }
+              ],
+              "cc": []
+            },
+            "createdAt": "2023-10-04T05:05:20.000Z"
+          }
+        ]
+      },
+      {
+        "project": {
+          "id": "3626296728527551677",
+          "name": "방학-중-컨텐츠-기획"
+        },
+        "members": [],
+        "group": [
+          {
+            "id": "3642498366274573948",
+            "project": {
+              "id": "3626296728527551677",
+              "code": "방학-중-컨텐츠-기획"
+            },
+            "priority": "none",
+            "subject": "[01월 20일]SUSC OT 및 밋업 장소 선정",
+            "taskNumber": "방학-중-컨텐츠-기획/6",
+            "dueDate": "2023-12-02T09:00:00.000Z",
+            "users": {
+              "from": {
+                "type": "member",
+                "member": {
+                  "organizationMemberId": "3626349875561291430",
+                  "name": "추영욱"
+                }
+              },
+              "to": [
+                {
+                  "type": "group",
+                  "group": {
+                    "projectMemberGroupId": "3641335610320205589",
+                    "code": "방학-중-컨텐츠-기획/대외협력팀",
+                    "members": [
+                      {
+                        "organizationMemberId": "3626352306351140608",
+                        "name": "남의서",
+                        "workflowId": "3626296728838986254"
+                      },
+                      {
+                        "organizationMemberId": "3627682660080378247",
+                        "name": "박정식",
+                        "workflowId": "3626296728838986254"
+                      },
+                      {
+                        "organizationMemberId": "3626282873298798192",
+                        "name": "송보경",
+                        "workflowId": "3626296728838986254"
+                      },
+                      {
+                        "organizationMemberId": "3630486433216795822",
+                        "name": "송현민",
+                        "workflowId": "3626296728838986254"
+                      },
+                      {
+                        "organizationMemberId": "3626391790979469300",
+                        "name": "이준원",
+                        "workflowId": "3626296728838986254"
+                      },
+                      {
+                        "organizationMemberId": "3626349875561291430",
+                        "name": "추영욱",
+                        "workflowId": "3626296728838986254"
+                      }
+                    ]
+                  },
+                  "workflow": {
+                    "id": "3626296728838986254",
+                    "name": "할 일"
+                  }
+                }
+              ],
+              "cc": []
+            },
+            "createdAt": "2023-10-05T16:34:02.000Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "teamId": "ga",
+    "summary": []
+  },
+  {
+    "teamId": "school-manage",
+    "summary": [
+      {
+        "project": {
+          "id": "3626287858542903466",
+          "name": "SUSC-Branding"
+        },
+        "members": [
+          {
+            "id": "3641442418857129101",
+            "project": {
+              "id": "3626287858542903466",
+              "code": "SUSC-Branding"
+            },
+            "priority": "normal",
+            "subject": "SUSC 알고리즘 대회 Ideation",
+            "taskNumber": "SUSC-Branding/13",
+            "dueDate": "2023-10-17T13:00:00.000Z",
+            "users": {
+              "from": {
+                "type": "member",
+                "member": {
+                  "organizationMemberId": "3626282873298798192",
+                  "name": "송보경"
+                }
+              },
+              "to": [
+                {
+                  "type": "member",
+                  "member": {
+                    "organizationMemberId": "3626828199968726520",
+                    "name": "김민상"
+                  },
+                  "workflow": {
+                    "id": "3626287858798570467",
+                    "name": "할 일"
+                  }
+                },
+                {
+                  "type": "group",
+                  "group": {
+                    "projectMemberGroupId": "3641009946534663427",
+                    "code": "SUSC-Branding/기획팀",
+                    "members": [
+                      {
+                        "organizationMemberId": "3626352306351140608",
+                        "name": "남의서",
+                        "workflowId": "3626287858798570467"
+                      },
+                      {
+                        "organizationMemberId": "3626351758141558947",
+                        "name": "문준상",
+                        "workflowId": "3626287858798570467"
+                      },
+                      {
+                        "organizationMemberId": "3627682660080378247",
+                        "name": "박정식",
+                        "workflowId": "3626287858798570467"
+                      },
+                      {
+                        "organizationMemberId": "3626282873298798192",
+                        "name": "송보경",
+                        "workflowId": "3626287858798570467"
+                      },
+                      {
+                        "organizationMemberId": "3627675891554539273",
+                        "name": "이지성",
+                        "workflowId": "3626287858798570467"
+                      }
+                    ]
+                  },
+                  "workflow": {
+                    "id": "3626287858798570467",
+                    "name": "할 일"
+                  }
+                }
+              ],
+              "cc": []
+            },
+            "createdAt": "2023-10-04T05:36:04.000Z"
+          }
+        ],
+        "group": [
+          {
+            "id": "3641359087543856047",
+            "project": {
+              "id": "3626287858542903466",
+              "code": "SUSC-Branding"
+            },
+            "priority": "highest",
+            "subject": "학교 대표 OT 자료 작성",
+            "taskNumber": "SUSC-Branding/7",
+            "dueDate": null,
+            "users": {
+              "from": {
+                "type": "member",
+                "member": {
+                  "organizationMemberId": "3626282873298798192",
+                  "name": "송보경"
+                }
+              },
+              "to": [
+                {
+                  "type": "group",
+                  "group": {
+                    "projectMemberGroupId": "3641009946534663427",
+                    "code": "SUSC-Branding/기획팀",
+                    "members": [
+                      {
+                        "organizationMemberId": "3626352306351140608",
+                        "name": "남의서",
+                        "workflowId": "3626287858798570467"
+                      },
+                      {
+                        "organizationMemberId": "3626351758141558947",
+                        "name": "문준상",
+                        "workflowId": "3626287858798570467"
+                      },
+                      {
+                        "organizationMemberId": "3627682660080378247",
+                        "name": "박정식",
+                        "workflowId": "3626287858798570467"
+                      },
+                      {
+                        "organizationMemberId": "3626282873298798192",
+                        "name": "송보경",
+                        "workflowId": "3626287858798570467"
+                      },
+                      {
+                        "organizationMemberId": "3627675891554539273",
+                        "name": "이지성",
+                        "workflowId": "3626287858798570467"
+                      }
+                    ]
+                  },
+                  "workflow": {
+                    "id": "3626287858798570467",
+                    "name": "할 일"
+                  }
+                },
+                {
+                  "type": "group",
+                  "group": {
+                    "projectMemberGroupId": "3641009474062780801",
+                    "code": "SUSC-Branding/학교운영팀",
+                    "members": [
+                      {
+                        "organizationMemberId": "3626828199968726520",
+                        "name": "김민상",
+                        "workflowId": "3626287858798570467"
+                      },
+                      {
+                        "organizationMemberId": "3626807577255448605",
+                        "name": "김현우",
+                        "workflowId": "3626287858798570467"
+                      },
+                      {
+                        "organizationMemberId": "3626282873298798192",
+                        "name": "송보경",
+                        "workflowId": "3626287858798570467"
+                      },
+                      {
+                        "organizationMemberId": "3627675891554539273",
+                        "name": "이지성",
+                        "workflowId": "3626287858798570467"
+                      }
+                    ]
+                  },
+                  "workflow": {
+                    "id": "3626287858798570467",
+                    "name": "할 일"
+                  }
+                }
+              ],
+              "cc": [
+                {
+                  "type": "group",
+                  "group": {
+                    "projectMemberGroupId": "3641009050036977933",
+                    "code": "SUSC-Branding/대외협력팀",
+                    "members": [
+                      {
+                        "organizationMemberId": "3630486433216795822",
+                        "name": "송현민"
+                      },
+                      {
+                        "organizationMemberId": "3626391790979469300",
+                        "name": "이준원"
+                      },
+                      {
+                        "organizationMemberId": "3626349875561291430",
+                        "name": "추영욱"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "createdAt": "2023-10-04T02:50:30.000Z"
+          },
+          {
+            "id": "3641412717382190548",
+            "project": {
+              "id": "3626287858542903466",
+              "code": "SUSC-Branding"
+            },
+            "priority": "highest",
+            "subject": "동아리 홍보용 노션 템플릿 수정",
+            "taskNumber": "SUSC-Branding/8",
+            "dueDate": "2023-10-15T14:30:00.000Z",
+            "users": {
+              "from": {
+                "type": "member",
+                "member": {
+                  "organizationMemberId": "3626282873298798192",
+                  "name": "송보경"
+                }
+              },
+              "to": [
+                {
+                  "type": "group",
+                  "group": {
+                    "projectMemberGroupId": "3641009474062780801",
+                    "code": "SUSC-Branding/학교운영팀",
+                    "members": [
+                      {
+                        "organizationMemberId": "3626828199968726520",
+                        "name": "김민상",
+                        "workflowId": "3626287858849504348"
+                      },
+                      {
+                        "organizationMemberId": "3626807577255448605",
+                        "name": "김현우",
+                        "workflowId": "3626287858849504348"
+                      },
+                      {
+                        "organizationMemberId": "3626282873298798192",
+                        "name": "송보경",
+                        "workflowId": "3626287858849504348"
+                      },
+                      {
+                        "organizationMemberId": "3627675891554539273",
+                        "name": "이지성",
+                        "workflowId": "3626287858849504348"
+                      }
+                    ]
+                  },
+                  "workflow": {
+                    "id": "3626287858849504348",
+                    "name": "진행 중"
+                  }
+                },
+                {
+                  "type": "group",
+                  "group": {
+                    "projectMemberGroupId": "3641010132226182688",
+                    "code": "SUSC-Branding/홍보팀",
+                    "members": [
+                      {
+                        "organizationMemberId": "3626986078200562368",
+                        "name": "박시원",
+                        "workflowId": "3626287858849504348"
+                      },
+                      {
+                        "organizationMemberId": "3627121074118820202",
+                        "name": "신서연",
+                        "workflowId": "3626287858849504348"
+                      },
+                      {
+                        "organizationMemberId": "3627112296466885653",
+                        "name": "현승준",
+                        "workflowId": "3626287858849504348"
+                      }
+                    ]
+                  },
+                  "workflow": {
+                    "id": "3626287858849504348",
+                    "name": "진행 중"
+                  }
+                }
+              ],
+              "cc": []
+            },
+            "createdAt": "2023-10-04T04:37:03.000Z"
+          },
+          {
+            "id": "3641350250138988233",
+            "project": {
+              "id": "3626287858542903466",
+              "code": "SUSC-Branding"
+            },
+            "priority": "highest",
+            "subject": "[SUSC at Univ] 학교 대표 정리",
+            "taskNumber": "SUSC-Branding/6",
+            "dueDate": "2023-10-16T14:30:00.000Z",
+            "users": {
+              "from": {
+                "type": "member",
+                "member": {
+                  "organizationMemberId": "3626282873298798192",
+                  "name": "송보경"
+                }
+              },
+              "to": [
+                {
+                  "type": "group",
+                  "group": {
+                    "projectMemberGroupId": "3641009474062780801",
+                    "code": "SUSC-Branding/학교운영팀",
+                    "members": [
+                      {
+                        "organizationMemberId": "3626828199968726520",
+                        "name": "김민상",
+                        "workflowId": "3626287858849504348"
+                      },
+                      {
+                        "organizationMemberId": "3626807577255448605",
+                        "name": "김현우",
+                        "workflowId": "3626287858849504348"
+                      },
+                      {
+                        "organizationMemberId": "3626282873298798192",
+                        "name": "송보경",
+                        "workflowId": "3626287858849504348"
+                      },
+                      {
+                        "organizationMemberId": "3627675891554539273",
+                        "name": "이지성",
+                        "workflowId": "3626287858849504348"
+                      }
+                    ]
+                  },
+                  "workflow": {
+                    "id": "3626287858849504348",
+                    "name": "진행 중"
+                  }
+                }
+              ],
+              "cc": [
+                {
+                  "type": "member",
+                  "member": {
+                    "organizationMemberId": "3626391790979469300",
+                    "name": "이준원"
+                  }
+                },
+                {
+                  "type": "member",
+                  "member": {
+                    "organizationMemberId": "3626349875561291430",
+                    "name": "추영욱"
+                  }
+                }
+              ]
+            },
+            "createdAt": "2023-10-04T02:32:56.000Z"
+          },
+          {
+            "id": "3641417126823887255",
+            "project": {
+              "id": "3626287858542903466",
+              "code": "SUSC-Branding"
+            },
+            "priority": "high",
+            "subject": "SUSC at Univ 개설 요건 기획",
+            "taskNumber": "SUSC-Branding/10",
+            "dueDate": "2023-10-16T14:30:00.000Z",
+            "users": {
+              "from": {
+                "type": "member",
+                "member": {
+                  "organizationMemberId": "3626282873298798192",
+                  "name": "송보경"
+                }
+              },
+              "to": [
+                {
+                  "type": "group",
+                  "group": {
+                    "projectMemberGroupId": "3641009474062780801",
+                    "code": "SUSC-Branding/학교운영팀",
+                    "members": [
+                      {
+                        "organizationMemberId": "3626828199968726520",
+                        "name": "김민상",
+                        "workflowId": "3626287858798570467"
+                      },
+                      {
+                        "organizationMemberId": "3626807577255448605",
+                        "name": "김현우",
+                        "workflowId": "3626287858798570467"
+                      },
+                      {
+                        "organizationMemberId": "3626282873298798192",
+                        "name": "송보경",
+                        "workflowId": "3626287858798570467"
+                      },
+                      {
+                        "organizationMemberId": "3627675891554539273",
+                        "name": "이지성",
+                        "workflowId": "3626287858798570467"
+                      }
+                    ]
+                  },
+                  "workflow": {
+                    "id": "3626287858798570467",
+                    "name": "할 일"
+                  }
+                }
+              ],
+              "cc": [
+                {
+                  "type": "group",
+                  "group": {
+                    "projectMemberGroupId": "3641009946534663427",
+                    "code": "SUSC-Branding/기획팀",
+                    "members": [
+                      {
+                        "organizationMemberId": "3626352306351140608",
+                        "name": "남의서"
+                      },
+                      {
+                        "organizationMemberId": "3626351758141558947",
+                        "name": "문준상"
+                      },
+                      {
+                        "organizationMemberId": "3627682660080378247",
+                        "name": "박정식"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "createdAt": "2023-10-04T04:45:49.000Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "teamId": "promotion",
+    "summary": [
+      {
+        "project": {
+          "id": "3626287858542903466",
+          "name": "SUSC-Branding"
+        },
+        "members": [],
+        "group": [
+          {
+            "id": "3645409258438410962",
+            "project": {
+              "id": "3626287858542903466",
+              "code": "SUSC-Branding"
+            },
+            "priority": "none",
+            "subject": "Instagram 브랜딩하기",
+            "taskNumber": "SUSC-Branding/18",
+            "dueDate": null,
+            "users": {
+              "from": {
+                "type": "member",
+                "member": {
+                  "organizationMemberId": "3626391790979469300",
+                  "name": "이준원"
+                }
+              },
+              "to": [
+                {
+                  "type": "group",
+                  "group": {
+                    "projectMemberGroupId": "3641010132226182688",
+                    "code": "SUSC-Branding/홍보팀",
+                    "members": [
+                      {
+                        "organizationMemberId": "3626986078200562368",
+                        "name": "박시원",
+                        "workflowId": "3626287858798570467"
+                      },
+                      {
+                        "organizationMemberId": "3627121074118820202",
+                        "name": "신서연",
+                        "workflowId": "3626287858798570467"
+                      },
+                      {
+                        "organizationMemberId": "3627112296466885653",
+                        "name": "현승준",
+                        "workflowId": "3626287858798570467"
+                      }
+                    ]
+                  },
+                  "workflow": {
+                    "id": "3626287858798570467",
+                    "name": "할 일"
+                  }
+                }
+              ],
+              "cc": [
+                {
+                  "type": "group",
+                  "group": {
+                    "projectMemberGroupId": "3641009050036977933",
+                    "code": "SUSC-Branding/대외협력팀",
+                    "members": [
+                      {
+                        "organizationMemberId": "3627682660080378247",
+                        "name": "박정식"
+                      },
+                      {
+                        "organizationMemberId": "3630486433216795822",
+                        "name": "송현민"
+                      },
+                      {
+                        "organizationMemberId": "3626352306351140608",
+                        "name": "남의서"
+                      },
+                      {
+                        "organizationMemberId": "3626282873298798192",
+                        "name": "송보경"
+                      },
+                      {
+                        "organizationMemberId": "3626391790979469300",
+                        "name": "이준원"
+                      },
+                      {
+                        "organizationMemberId": "3626349875561291430",
+                        "name": "추영욱"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "createdAt": "2023-10-09T16:57:28.000Z"
+          },
+          {
+            "id": "3641412717382190548",
+            "project": {
+              "id": "3626287858542903466",
+              "code": "SUSC-Branding"
+            },
+            "priority": "highest",
+            "subject": "동아리 홍보용 노션 템플릿 수정",
+            "taskNumber": "SUSC-Branding/8",
+            "dueDate": "2023-10-15T14:30:00.000Z",
+            "users": {
+              "from": {
+                "type": "member",
+                "member": {
+                  "organizationMemberId": "3626282873298798192",
+                  "name": "송보경"
+                }
+              },
+              "to": [
+                {
+                  "type": "group",
+                  "group": {
+                    "projectMemberGroupId": "3641009474062780801",
+                    "code": "SUSC-Branding/학교운영팀",
+                    "members": [
+                      {
+                        "organizationMemberId": "3626828199968726520",
+                        "name": "김민상",
+                        "workflowId": "3626287858849504348"
+                      },
+                      {
+                        "organizationMemberId": "3626807577255448605",
+                        "name": "김현우",
+                        "workflowId": "3626287858849504348"
+                      },
+                      {
+                        "organizationMemberId": "3626282873298798192",
+                        "name": "송보경",
+                        "workflowId": "3626287858849504348"
+                      },
+                      {
+                        "organizationMemberId": "3627675891554539273",
+                        "name": "이지성",
+                        "workflowId": "3626287858849504348"
+                      }
+                    ]
+                  },
+                  "workflow": {
+                    "id": "3626287858849504348",
+                    "name": "진행 중"
+                  }
+                },
+                {
+                  "type": "group",
+                  "group": {
+                    "projectMemberGroupId": "3641010132226182688",
+                    "code": "SUSC-Branding/홍보팀",
+                    "members": [
+                      {
+                        "organizationMemberId": "3626986078200562368",
+                        "name": "박시원",
+                        "workflowId": "3626287858849504348"
+                      },
+                      {
+                        "organizationMemberId": "3627121074118820202",
+                        "name": "신서연",
+                        "workflowId": "3626287858849504348"
+                      },
+                      {
+                        "organizationMemberId": "3627112296466885653",
+                        "name": "현승준",
+                        "workflowId": "3626287858849504348"
+                      }
+                    ]
+                  },
+                  "workflow": {
+                    "id": "3626287858849504348",
+                    "name": "진행 중"
+                  }
+                }
+              ],
+              "cc": []
+            },
+            "createdAt": "2023-10-04T04:37:03.000Z"
+          }
+        ]
+      },
+      {
+        "project": {
+          "id": "3626293483184947331",
+          "name": "SUSCon23-준비"
+        },
+        "members": [],
+        "group": [
+          {
+            "id": "3641424716703613689",
+            "project": {
+              "id": "3626293483184947331",
+              "code": "SUSCon23-준비"
+            },
+            "priority": "highest",
+            "subject": "SUSCon 포스터 가안 제작",
+            "taskNumber": "SUSCon23-준비/11",
+            "dueDate": null,
+            "users": {
+              "from": {
+                "type": "member",
+                "member": {
+                  "organizationMemberId": "3626282873298798192",
+                  "name": "송보경"
+                }
+              },
+              "to": [
+                {
+                  "type": "group",
+                  "group": {
+                    "projectMemberGroupId": "3641333739451318254",
+                    "code": "23Winter-행사-준비/홍보팀",
+                    "members": [
+                      {
+                        "organizationMemberId": "3626986078200562368",
+                        "name": "박시원",
+                        "workflowId": "3626293483368841080"
+                      },
+                      {
+                        "organizationMemberId": "3627121074118820202",
+                        "name": "신서연",
+                        "workflowId": "3626293483368841080"
+                      },
+                      {
+                        "organizationMemberId": "3627112296466885653",
+                        "name": "현승준",
+                        "workflowId": "3626293483368841080"
+                      }
+                    ]
+                  },
+                  "workflow": {
+                    "id": "3626293483368841080",
+                    "name": "할 일"
+                  }
+                }
+              ],
+              "cc": []
+            },
+            "createdAt": "2023-10-04T05:00:53.000Z"
+          }
+        ]
+      }
+    ]
+  }
+]

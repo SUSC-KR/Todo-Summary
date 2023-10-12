@@ -6,10 +6,14 @@ export type TaskUsers = {
   readonly to: User[];
 };
 
+export class Project {
+  constructor(readonly id: string, readonly code: string) {}
+}
+
 export class Task {
   constructor(
     readonly id: string,
-    readonly projectId: string,
+    readonly project: Project,
     readonly priority: Priority,
     readonly subject: string,
     readonly taskNumber: string,
