@@ -1,6 +1,13 @@
-import { Task } from 'task/task';
-import { User } from '../../task/user';
+import dayjs from 'dayjs';
+import utc from 'dayjs/plugin/utc';
+import timezone from 'dayjs/plugin/timezone';
+
+import { Task } from '../../task/task';
 import { Priority, PriorityEmoji } from '../../task/priority';
+import { User } from '../../task/user';
+
+dayjs.extend(utc);
+dayjs.extend(timezone);
 
 export class MessageBuilder {
   buildProjectTitle(projectName: string): string {
@@ -15,8 +22,30 @@ export class MessageBuilder {
     return `https://susckr.dooray.com/task/all/${taskId}`;
   }
 
-  private buildDueDateString(dueDate: Date | null): string {
-    return dueDate?.toISOString() ?? '만기일 없음';
+  private buildDueDateLabel(diff: number): string {
+    if (diff === 0) {
+      return '오늘까지';
+    } else if (diff < 0) {
+      return `${-diff}일 남음`;
+    } else {
+      return `${diff}일 초과`;
+    }
+  }
+
+  private buildDueDateString(dueDateUTC: Date | null): string {
+    if (!dueDateUTC) {
+      return '만기일 없음';
+    }
+
+    const todayKST = dayjs.utc(new Date()).tz('Asia/Seoul').startOf('day');
+    const dueDateKST = dayjs.utc(dueDateUTC).tz('Asia/Seoul').startOf('day');
+
+    const dayDiff = todayKST.diff(dueDateKST, 'day');
+
+    const formattedDueDate = dueDateKST.format('YYYY.MM.DD.');
+    const label = this.buildDueDateLabel(dayDiff);
+
+    return `~ ${formattedDueDate} (${label})`;
   }
 
   private buildCreator(user: User): string {
