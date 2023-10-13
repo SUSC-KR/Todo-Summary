@@ -16,7 +16,7 @@ export class DiscordMessageWorker {
   }
 
   async work(report: SummaryReport): Promise<void> {
-    const { discordBotToken, teamIds } = Configuration;
+    const { discordBotToken, teamIds, teamChannelMap } = Configuration;
 
     const client = new Client({ intents: [GatewayIntentBits.Guilds] });
     await client.login(discordBotToken);
@@ -24,11 +24,12 @@ export class DiscordMessageWorker {
 
     try {
       for (const teamId of teamIds) {
-        const channelId = '1142149381764698166';
-
+        const channelId =
+          teamChannelMap.find((entry) => entry.teamId === teamId)?.channelId ??
+          null;
         const teamSummary = report.find((summary) => summary.teamId === teamId);
 
-        if (!teamSummary) {
+        if (!channelId || !teamSummary) {
           continue;
         }
 
