@@ -6,6 +6,7 @@ dotenv.config();
 type ConfigurationType = {
   projectIds: string[];
   doorayApiKey: string;
+  discordBotToken: string;
   teamIds: string[];
   teamMemberMap: { teamId: string; memberIds: string[] }[];
   teamGroupMap: { teamId: string; groupIds: string[] }[];
@@ -15,6 +16,7 @@ type ConfigurationType = {
 export const Configuration: ConfigurationType = {
   projectIds: split(process.env.PROJECT_IDS, ','),
   doorayApiKey: process.env.DOORAY_API_KEY || 'none',
+  discordBotToken: process.env.DISCORD_BOT_TOKEN || '',
   teamIds: split(process.env.TEAM_IDS, ','),
   teamMemberMap: JSON.parse(process.env.TEAM_MEMBER_MAP || '[]'),
   teamGroupMap: JSON.parse(process.env.TEAM_GROUP_MAP || '[]'),

@@ -1,9 +1,9 @@
 import { Configuration } from '../../config';
 import { DoorayAdapter } from '../../adapter/dooray-adapter';
-import { Summary, SummaryReport, TeamSummary } from './summary-report';
+import { Summary, SummaryReport, TeamSummary } from '../summary-report';
 import { Project, Task } from '../../task/task';
 import { ListTaskResponseDto } from '../../adapter/dto/list-task.dto';
-import { randomInt, sleep } from '../../util';
+import { findOrCreateIfNotExist, randomInt, sleep } from '../../util';
 
 type TeamSummaryMap = Record<string, TeamSummary>;
 type GroupTeamMap = Record<string, string>;
@@ -58,7 +58,7 @@ export class SummaryWorker {
                 name: task.project.code,
               },
               members: [],
-              group: [],
+              groups: [],
             };
             teamSummary.summary.push(newSummary);
             prevSummary = newSummary;
@@ -67,9 +67,33 @@ export class SummaryWorker {
           }
 
           if (user.type === 'member') {
-            prevSummary.members.push(task);
+            const memberTask = findOrCreateIfNotExist({
+              target: prevSummary.members,
+              predicate: ({ member }) =>
+                member.id === user.member.organizationMemberId,
+              create: () => ({
+                member: {
+                  id: user.member.organizationMemberId,
+                  name: user.member.name,
+                },
+                tasks: [],
+              }),
+            });
+            memberTask.tasks.push(task);
           } else {
-            prevSummary.group.push(task);
+            const groupTask = findOrCreateIfNotExist({
+              target: prevSummary.groups,
+              predicate: ({ group }) =>
+                group.id === user.group.projectMemberGroupId,
+              create: () => ({
+                group: {
+                  id: user.group.projectMemberGroupId,
+                  name: user.group.code,
+                },
+                tasks: [],
+              }),
+            });
+            groupTask.tasks.push(task);
           }
 
           summary[teamId] = teamSummary;
