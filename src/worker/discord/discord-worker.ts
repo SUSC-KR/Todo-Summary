@@ -7,7 +7,6 @@ import {
   TextBasedChannel,
 } from 'discord.js';
 import { ReportBuilder } from './report-builder';
-import { writeFile } from 'fs/promises';
 
 export class DiscordMessageWorker {
   private reportBuilder: ReportBuilder;

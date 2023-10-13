@@ -1,3 +1,4 @@
+import { PriorityOrder } from '../../task/priority';
 import { Summary } from '../../worker/summary-report';
 import { MessageBuilder } from './message-builder';
 
@@ -20,9 +21,11 @@ export class ReportBuilder {
     // 그룹에 할당된 Task 목록 빌드
     summary.groups.forEach(({ group, tasks }) => {
       result += `@${group.name}` + '\n';
-      tasks.forEach((task) => {
-        result += this.messageBuilder.build(task) + '\n';
-      });
+      tasks
+        .sort((a, b) => PriorityOrder[a.priority] - PriorityOrder[b.priority])
+        .forEach((task) => {
+          result += this.messageBuilder.build(task) + '\n';
+        });
     });
 
     result += '\n';
@@ -30,9 +33,11 @@ export class ReportBuilder {
     // 멤버에게 할당된 Task 목록 빌드
     summary.members.forEach(({ member, tasks }) => {
       result += `@${member.name}` + '\n';
-      tasks.forEach((task) => {
-        result += this.messageBuilder.build(task) + '\n';
-      });
+      tasks
+        .sort((a, b) => PriorityOrder[a.priority] - PriorityOrder[b.priority])
+        .forEach((task) => {
+          result += this.messageBuilder.build(task) + '\n';
+        });
     });
 
     result += '\n';
